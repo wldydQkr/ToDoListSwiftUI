@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C038F3002868567600463910 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038F2FF2868567600463910 /* MainTabView.swift */; };
 		C06DC9432861F4990014E288 /* ToDoListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DC9422861F4990014E288 /* ToDoListSwiftUIApp.swift */; };
 		C06DC9452861F4990014E288 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DC9442861F4990014E288 /* ContentView.swift */; };
 		C06DC9472861F49B0014E288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06DC9462861F49B0014E288 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C038F2FF2868567600463910 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		C06DC93F2861F4990014E288 /* ToDoListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06DC9422861F4990014E288 /* ToDoListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSwiftUIApp.swift; sourceTree = "<group>"; };
 		C06DC9442861F4990014E288 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				C06DC9422861F4990014E288 /* ToDoListSwiftUIApp.swift */,
+				C038F2FF2868567600463910 /* MainTabView.swift */,
 				C06DC9442861F4990014E288 /* ContentView.swift */,
 				C06DC95228644B860014E288 /* ToDoViewModel.swift */,
 				C06DC95428644BE30014E288 /* ToDO.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C038F3002868567600463910 /* MainTabView.swift in Sources */,
 				C06DC9452861F4990014E288 /* ContentView.swift in Sources */,
 				C06DC95328644B860014E288 /* ToDoViewModel.swift in Sources */,
 				C06DC9432861F4990014E288 /* ToDoListSwiftUIApp.swift in Sources */,
