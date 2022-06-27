@@ -15,7 +15,7 @@ struct MainTabView: View {
                     Image(systemName: "note.text")
                     Text("First")
                 }
-            Text("Other")
+            SettingView()
                 .tabItem {
                     Image(systemName: "person")
                     Text("Second")
