@@ -12,6 +12,7 @@ struct ToDoListSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             MainTabView()
+                .accentColor(.orange)
         }
     }
 }

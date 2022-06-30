@@ -46,6 +46,12 @@ struct ContentView: View {
         }
     }
     
+    init() {
+      let navBarAppearance = UINavigationBar.appearance()
+      navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.orange]
+//      navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -69,7 +75,7 @@ struct ContentView: View {
                     .onDelete(perform: self.toDoViewModel.delete)
                 }
             }
-            .navigationBarTitle(Text("ToDoList"))
+            .navigationBarTitle(Text("To Do List"))
             .navigationBarItems(
                 leading:
                     EditButton(),
